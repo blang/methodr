@@ -1,7 +1,7 @@
-MethodR for golang [![Build Status](https://drone.io/github.com/blang/methodr/status.png)](https://drone.io/github.com/blang/methodr/latest) [![GoDoc](https://godoc.org/github.com/blang/methodr?status.png)](https://godoc.org/github.com/blang/methodr) [![Coverage Status](https://img.shields.io/coveralls/blang/methodr.svg)](https://coveralls.io/r/blang/methodr?branch=master)
+methodr for golang [![Build Status](https://drone.io/github.com/blang/methodr/status.png)](https://drone.io/github.com/blang/methodr/latest) [![GoDoc](https://godoc.org/github.com/blang/methodr?status.png)](https://godoc.org/github.com/blang/methodr) [![Coverage Status](https://img.shields.io/coveralls/blang/methodr.svg)](https://coveralls.io/r/blang/methodr?branch=master)
 ======
 
-MethodR provides routing based on the request method written in golang. Fully http.Handler compliant.
+methodr provides routing based on the request method written in golang. Fully http.Handler compliant.
 
 Usage
 -----
