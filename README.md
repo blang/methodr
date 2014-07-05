@@ -22,7 +22,7 @@ Why should I use this lib?
 
 - Simple Interface
 - Fully http.Handler compliant (supports every good routing environment)
-- No reflection/reflection/nasty stuff
+- No reflection/regex/nasty stuff
 - No allocs as handler
 - Fully tested (Coverage >99%)
 - Fast (See [Benchmarks](#benchmarks))
