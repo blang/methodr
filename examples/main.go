@@ -36,7 +36,7 @@ func main() {
 
 	// Setup 3: Route depending on method
 	// Use chains to specify different routes, order is nonrelevant.
-	// PATCH/PUT/... will result in StatusNotFound
+	// PATCH/PUT/... will result in StatusMethodNotAllowed
 	http.Handle("/foo3", methodr.GET(getHandler).POST(postHandler))
 	// Equivalent to: http.Handle("/foo3", methodr.POST(postHandler).GET(getHandler))
 
